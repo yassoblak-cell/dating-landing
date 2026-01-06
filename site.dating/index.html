@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Wooow Dating</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="overlay">
+            <div class="container">
+                <header>
+                    <h1>Wooow Dating</h1>
+                    <p>Trouve ton match parfait dès maintenant !</p>
+                </header>
+
+                <section id="profileForm">
+                    <form id="signupForm">
+                        <input type="text" placeholder="Ton nom" id="name" required>
+                        <input type="number" placeholder="Ton âge" id="age" required>
+                        <select id="gender" required>
+                            <option value="">Sélectionne ton genre</option>
+                            <option value="homme">Homme</option>
+                            <option value="femme">Femme</option>
+                        </select>
+                        <button type="submit">Créer mon profil</button>
+                    </form>
+                </section>
+
+                <section id="matchArea" style="display:none;">
+                    <h2>Match trouvé !</h2>
+                    <p id="matchInfo"></p>
+                    <button id="findMatchBtn">Trouver un autre match</button>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

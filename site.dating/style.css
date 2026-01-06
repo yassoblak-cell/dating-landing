@@ -1,0 +1,90 @@
+/* Full screen background */
+.background-container {
+    background-image: url('background.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Overlay dark transparent */
+.overlay {
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container centered */
+.container {
+    background-color: rgba(255,255,255,0.85);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    text-align: center;
+    max-width: 500px;
+}
+
+/* Header professional */
+header h1 {
+    font-size: 3em;
+    font-weight: 800;
+    color: #ff4081;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+/* Form & buttons */
+input, select {
+    width: 80%;
+    padding: 12px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid #ff4081;
+    font-size: 1em;
+    outline: none;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #ff4081;
+    color: white;
+    transition: 0.3s;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #e91e63;
+    transform: scale(1.05);
+}
+
+/* Match area */
+#matchArea h2 {
+    color: #ff4081;
+    font-size: 2em;
+}
+#matchArea p {
+    font-size: 1.2em;
+    color: #333;
+}
